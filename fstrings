@@ -1,3 +1,9 @@
 nim=71220826
 nama="Hermanus Rangga Horo"
 print(f'halo, saya {nama}, dengan nim {nim}')
+
+total=0
+angka=input("Masukan angka:")
+for digit in angka:
+    total=total+int(digit)
+print(total)
